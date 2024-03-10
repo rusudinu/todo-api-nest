@@ -20,6 +20,14 @@ docker build -t todo-api-nest .
 docker run -p4000:4000 todo-api-nest
 ```
 
+or
+
+```bash
+docker run -d -p4000:4000 todo-api-nest
+```
+
+to run it in detached mode.
+
 ## Reload the docker container
 
 ```bash
